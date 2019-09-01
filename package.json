@@ -1,6 +1,6 @@
 {
-  "name": "env-logger",
-  "version": "1.0.0",
+  "name": "environment-based-logging",
+  "version": "1.0.2",
   "description": "Custom Logging for different enviroments",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "Seth Wheeler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Megapixel99/env-logging/issues"
+    "url": "https://github.com/Megapixel99/Environment-Based-Logging/issues"
   },
-  "homepage": "https://github.com/Megapixel99/env-logging#readme",
+  "homepage": "https://github.com/Megapixel99/Environment-Based-Logging#readme",
   "keywords": [
     "logging",
     "log",

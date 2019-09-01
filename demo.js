@@ -1,7 +1,7 @@
 const envLogger = require('./test/test2/index.js');
 
 var logger_with_lower_levels = new envLogger({
-  env_file: "./test3/demo.env",
+  env_file: "./demo.env",
   log_levels: {
     test: 0,
     dev: 1,
@@ -15,7 +15,7 @@ logger_with_lower_levels.print("test with lower level, level dev ", "dev");
 logger_with_lower_levels.print("test with lower level, level patch ", "patch");
 
 var logger_without_lower_levels = new envLogger({
-  env_file: "./test3/demo.env",
+  env_file: "./demo.env",
   log_levels: {
     test: 0,
     dev: 1,

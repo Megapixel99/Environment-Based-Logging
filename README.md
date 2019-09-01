@@ -6,7 +6,7 @@ It allows the user to customize their logs for different environments.
 
 ## Installation
 
-npm install cas-authentication-user
+npm i environment-based-logging
 
 ## Setup
 
@@ -14,7 +14,7 @@ npm install cas-authentication-user
 
 2. Use the following javascript in you file:
 ```
-const envLogger = require('env-logger');
+const envLogger = require('environment-based-logging');
 
 var logger_with_lower_levels = new envLogger({
   env_file: "path to environment file relative to your file (i.e. ../../environments/dev.env)",
@@ -41,7 +41,7 @@ var logger_with_lower_levels = new envLogger({
 
 javascript:
 ```
-const envLogger = require('env-logger');
+const envLogger = require('environment-based-logging');
 
 var logger_with_lower_levels = new envLogger({
   env_file: "../.env",
@@ -68,7 +68,7 @@ var logger_without_lower_levels = new envLogger({
   log_lower_levels: false
 });
 
-//Only outputs some of the logs depending on the since log_lower_levels is true
+//Only outputs some of the logs depending on the since log_lower_levels is false
 logger_without_lower_levels.print("test without lower level, level test ", "test");
 logger_without_lower_levels.print("test without lower level, level dev ", "dev");
 logger_without_lower_levels.print("test without lower level, level patch ", "patch");

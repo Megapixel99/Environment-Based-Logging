@@ -74,7 +74,7 @@ logger_without_lower_levels.print("test without lower level, level dev ", "dev")
 logger_without_lower_levels.print("test without lower level, level patch ", "patch");
 ```
 
-##Example
+## Example
 
 For the usage case above, `LOG_LEVEL=dev` in the environment file will output:
 ```

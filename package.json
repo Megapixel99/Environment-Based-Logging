@@ -1,0 +1,30 @@
+{
+  "name": "env-logger",
+  "version": "1.0.0",
+  "description": "Custom Logging for different enviroments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Megapixel99/env-logging.git"
+  },
+  "author": "Seth Wheeler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Megapixel99/env-logging/issues"
+  },
+  "homepage": "https://github.com/Megapixel99/env-logging#readme",
+  "keywords": [
+    "logging",
+    "log",
+    "logger",
+    "enviroment",
+    "env"
+  ],
+  "dependencies": {
+    "dotenv": "8.1.0"
+  }
+}

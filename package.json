@@ -1,6 +1,6 @@
 {
   "name": "environment-based-logging",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom Logging for different enviroments",
   "main": "index.js",
   "scripts": {

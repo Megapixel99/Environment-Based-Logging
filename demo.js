@@ -1,4 +1,4 @@
-const envLogger = require('index.js');
+const envLogger = require('./index.js');
 
 var logger_with_lower_levels = new envLogger({
   env_file: "./demo.env",
